@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Update with your actual path
-file_path = r"C:\Users\kyleh\Desktop\CGM_Project\CGM Analytics.xlsx"
+file_path = r"C:\Users\johndoe\Desktop\CGM_Project\CGM Analytics.xlsx"
 sheet_name = "CGM"
 
 # Load the CGM sheet
@@ -20,7 +20,7 @@ df_output = df[[
 ]]
 
 # Save result
-output_file = r"C:\Users\kyleh\Desktop\CGM_Project\CGM_Patient_Responsibility_Output.xlsx"
+output_file = r"C:\Users\johndoe\Desktop\CGM_Project\CGM_Patient_Responsibility_Output.xlsx"
 df_output.to_excel(output_file, index=False)
 
 print("Calculation complete. Output saved at:")
